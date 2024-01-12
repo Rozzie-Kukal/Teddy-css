@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Teddaa</title>
+        
+        <style>
+            .circle{
+                background-color: rgb(250, 160, 81);
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+            }
+            .eye1 {
+                background-color: rgb(27, 22, 22);
+                height: 40px;
+                width: 30px;
+                border-radius: 50%;
+                /* margin-left: 55px; */
+                position: relative;
+                top: 50px;
+                left: 50px;
+            }
+            .eye2{
+                background-color: rgb(27, 22, 22);
+                height: 40px;
+                width: 30px;
+                border-radius: 50%;
+                position: relative;
+                top: 10px;
+                left: 120px;
+            }
+            .mouth{
+                background-color: rgb(63, 29, 29);
+                height: 40px;
+                width: 30px;
+                border-radius: 97%;
+                position: relative;
+                top: 46px;
+                left: 85px;
+            }   
+            .big-circle{
+                background-color:rgb(250, 160, 81) ;
+                height: 400px;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -25px;
+                border-radius: 50%;
+            }
+            .pocket{
+                background-color: rgb(168, 79, 24);
+                height: 70px;
+                width: 100px;
+                position: relative;
+                bottom:40px;
+                left: 100px;
+                border-bottom-right-radius: 30%;
+                border-bottom-left-radius: 30px;
+                border-bottom: 2px solid  rgb(85, 7, 0);
+            }
+            .hair{
+                background-color: rgb(85, 7, 0);
+                height: 250px;
+                width: 300px;
+                position: relative;
+                right: 50px;
+                bottom: 155px;
+                z-index: -1;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+            .hair-ext{
+                background-color: rgb(85, 7, 0) ;
+                width: 175px;
+                height: 50px;
+                position: relative;
+                bottom: 378px;
+                left: 20px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+            .foot1{
+                background-color: brown;
+                height: 40px;
+                width: 50px;
+                border-radius: 30%;
+                position: relative;
+                left: 88px;
+                top: 20px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+            .foot2{
+                background-color: brown;
+                height: 40px;
+                width: 50px;
+                border-radius: 30%;
+                position: relative;
+                left: 170px;
+                top: -18px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+            .foot-lines1{
+                background-color: black;
+                width: 5px;
+                height: 10px;
+                position: relative;
+                top: 30px;
+                left: 15px;
+            }
+            .foot-lines2{
+                background-color: black;
+                width: 5px;
+                height: 10px;
+                position: relative;
+                top: 20px;
+                left: 27px;
+            }
+            .mufler{
+                background-color: rgb(199, 0, 0);
+                width: 200px;
+                height: 70px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 30%;
+                border-top-right-radius: 60%;
+            }
+            .mufler-strand{
+                background-color: rgb(199, 0, 0);
+                width: 50px;
+                height: 200px;
+                /* margin-left: auto;
+                margin-right:30px; */
+                position: relative;
+                left: 206px;
+                bottom: 30px;
+                border-radius: 30%;
+            }
+            .mufler-dots1{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                top: 30px;
+                left: 40px;
+            }
+            .mufler-dots2{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                top: 20px;
+                left: 110px;
+            }
+            .mufler-dots3{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 12px;
+                left: 140px;
+            }
+            .mufler-dots4{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 45px;
+                left: 10px;
+            }
+            .mufler-dots5{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                top: 155px;
+                left: 15px;
+            }
+            .mufler-dots6{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 22px;
+                left: 18px;
+            }
+            .mufler-dots7{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 10px;
+                left: 7px;
+            }
+            .mufler-dots8{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+            .mufler-dots9{
+                background-color: #e8e2e2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: relative;
+                top: 35px;
+                left: 11px;
+            }
+            .back-triangle{
+                /* background-color: red; */
+                width: 0px;
+                height: 0px;
+                border-left: 30px solid transparent;
+                border-right: 30px solid transparent;
+                border-bottom: 60px solid rgb(203, 143, 31) ;
+                margin-left: 30px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div class="circle">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="mouth"></div>
+            <div class="hair"></div>    
+            <div class="hair-ext"></div>
+        </div>
+    
+        <div class="big-circle">
+            <div class="mufler">
+                <div class="mufler-dots1"></div>
+                <div class="mufler-dots2"></div>
+                <div class="mufler-dots3"></div>
+                <div class="mufler-dots4"></div>
+            </div>
+            <div class="mufler-strand">
+                <div class="mufler-dots5"></div>
+                <div class="mufler-dots6"></div>
+                <div class="mufler-dots7"></div>
+                <div class="mufler-dots8"></div>
+                <div class="mufler-dots9"></div>
+            </div>
+            <div class="pocket"></div>
+            <div class="foot1">
+                <div class="foot-lines1"></div>
+                <div class="foot-lines2"></div>
+            </div>
+            <div class="foot2">
+                <div class="foot-lines1"></div>
+                <div class="foot-lines2"></div>
+            </div>
+        </div>
+        <div class="back-triangle"></div>
+
+
+    </body>
+</html>
